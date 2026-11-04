@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "つかみやすいスクロールバー",
+  "version": "1.0.0",
+  "description": "Google スプレッドシートの縦横のバーを24pxに、一般サイトの標準バーをブラウザ標準の約2倍にします。",
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/spreadsheets/*"],
+      "css": ["sheets.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "exclude_matches": ["https://docs.google.com/spreadsheets/*"],
+      "js": ["standard.js"],
+      "css": ["standard.css"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
