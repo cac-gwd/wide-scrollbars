@@ -1,19 +1,19 @@
-:root, :root * {
+:root[data-wide-scrollbars-on], :root[data-wide-scrollbars-on] * {
   scrollbar-width: auto !important;
   scrollbar-color: auto !important;
 }
-:root::-webkit-scrollbar, :root *::-webkit-scrollbar {
+:root[data-wide-scrollbars-on]::-webkit-scrollbar, :root[data-wide-scrollbars-on] *::-webkit-scrollbar {
   width: var(--wide-scrollbars-width, 24px) !important;
   height: var(--wide-scrollbars-height, 24px) !important;
 }
-:root::-webkit-scrollbar-track, :root *::-webkit-scrollbar-track {
+:root[data-wide-scrollbars-on]::-webkit-scrollbar-track, :root[data-wide-scrollbars-on] *::-webkit-scrollbar-track {
   background: #ececec !important;
 }
-:root::-webkit-scrollbar-thumb, :root *::-webkit-scrollbar-thumb {
+:root[data-wide-scrollbars-on]::-webkit-scrollbar-thumb, :root[data-wide-scrollbars-on] *::-webkit-scrollbar-thumb {
   background: #767676 !important;
   border: 2px solid #ececec !important;
   border-radius: 100px !important;
 }
-:root::-webkit-scrollbar-thumb:hover, :root *::-webkit-scrollbar-thumb:hover {
+:root[data-wide-scrollbars-on]::-webkit-scrollbar-thumb:hover, :root[data-wide-scrollbars-on] *::-webkit-scrollbar-thumb:hover {
   background: #555 !important;
 }
