@@ -18,10 +18,10 @@
   bottom: 0 !important;
   overflow-y: hidden !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y::-webkit-scrollbar:vertical {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y::-webkit-scrollbar {
   width: 24px !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-x::-webkit-scrollbar:horizontal {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-x::-webkit-scrollbar {
   height: 24px !important;
 }
 :root[data-wide-scrollbars-on] .grid-container > .native-scrollbar::-webkit-scrollbar-thumb {
