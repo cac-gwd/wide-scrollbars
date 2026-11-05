@@ -1,33 +1,33 @@
 /* The grid positions these two native scrollers independently of its cells. */
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar[data-wide-scrollbars-near] {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *) {
   z-index: 5 !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y[data-wide-scrollbars-near] {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *) {
   width: 25px !important;
   left: auto !important;
   right: 0 !important;
   overflow-x: hidden !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y[data-wide-scrollbars-near].native-scrollbar-rtl {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *).native-scrollbar-rtl {
   left: 0 !important;
   right: auto !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-x[data-wide-scrollbars-near] {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-x:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *) {
   height: 25px !important;
   top: auto !important;
   bottom: 0 !important;
   overflow-y: hidden !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y[data-wide-scrollbars-near]::-webkit-scrollbar {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-y:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar {
   width: 24px !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-x[data-wide-scrollbars-near]::-webkit-scrollbar {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar-x:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar {
   height: 24px !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar[data-wide-scrollbars-near]::-webkit-scrollbar-thumb {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar-thumb {
   background-color: #777 !important;
   border-radius: 12px !important;
 }
-:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar[data-wide-scrollbars-near]::-webkit-scrollbar-thumb:hover {
+:root[data-wide-scrollbars-on] .grid-container > .native-scrollbar:is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar-thumb:hover {
   background-color: #555 !important;
 }

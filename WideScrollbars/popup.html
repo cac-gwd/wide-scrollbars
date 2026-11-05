@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<title>スクロールバーの設定</title>
+<link rel="stylesheet" href="popup.css">
+<main>
+  <h1>スクロールバー</h1>
+  <p id="site">読み込み中…</p>
+  <label><input id="enabled" type="checkbox" disabled> このサイトで使う</label>
+  <fieldset disabled>
+    <legend>太くするタイミング（全サイト共通）</legend>
+    <label><input type="radio" name="mode" value="hover"> マウスが近づいたときだけ</label>
+    <label><input type="radio" name="mode" value="always"> 常に太くする</label>
+  </fieldset>
+  <p id="status" role="status" aria-live="polite"></p>
+</main>
+<script src="site.js"></script>
+<script src="popup.js"></script>
+</html>

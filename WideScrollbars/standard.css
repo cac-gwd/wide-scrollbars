@@ -1,19 +1,19 @@
-:root[data-wide-scrollbars-on], :root[data-wide-scrollbars-on] * {
+:root[data-wide-scrollbars-on]:is([data-wide-scrollbars-near], [data-wide-scrollbars-mode="always"]), :root[data-wide-scrollbars-on] :is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *) {
   scrollbar-width: auto !important;
   scrollbar-color: auto !important;
 }
-:root[data-wide-scrollbars-on]::-webkit-scrollbar, :root[data-wide-scrollbars-on] *::-webkit-scrollbar {
+:root[data-wide-scrollbars-on]:is([data-wide-scrollbars-near], [data-wide-scrollbars-mode="always"])::-webkit-scrollbar, :root[data-wide-scrollbars-on] :is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar {
   width: var(--wide-scrollbars-width, 24px) !important;
   height: var(--wide-scrollbars-height, 24px) !important;
 }
-:root[data-wide-scrollbars-on]::-webkit-scrollbar-track, :root[data-wide-scrollbars-on] *::-webkit-scrollbar-track {
+:root[data-wide-scrollbars-on]:is([data-wide-scrollbars-near], [data-wide-scrollbars-mode="always"])::-webkit-scrollbar-track, :root[data-wide-scrollbars-on] :is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar-track {
   background: #ececec !important;
 }
-:root[data-wide-scrollbars-on]::-webkit-scrollbar-thumb, :root[data-wide-scrollbars-on] *::-webkit-scrollbar-thumb {
+:root[data-wide-scrollbars-on]:is([data-wide-scrollbars-near], [data-wide-scrollbars-mode="always"])::-webkit-scrollbar-thumb, :root[data-wide-scrollbars-on] :is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar-thumb {
   background: #767676 !important;
   border: 2px solid #ececec !important;
   border-radius: 100px !important;
 }
-:root[data-wide-scrollbars-on]::-webkit-scrollbar-thumb:hover, :root[data-wide-scrollbars-on] *::-webkit-scrollbar-thumb:hover {
+:root[data-wide-scrollbars-on]:is([data-wide-scrollbars-near], [data-wide-scrollbars-mode="always"])::-webkit-scrollbar-thumb:hover, :root[data-wide-scrollbars-on] :is([data-wide-scrollbars-near], :root[data-wide-scrollbars-mode="always"] *)::-webkit-scrollbar-thumb:hover {
   background: #555 !important;
 }

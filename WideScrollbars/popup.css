@@ -1,0 +1,9 @@
+body { margin: 0; width: 320px; font: 14px/1.6 system-ui, sans-serif; color: #202124; background: #fff; }
+main { padding: 18px; }
+h1 { margin: 0 0 6px; font-size: 18px; }
+#site { margin: 0 0 12px; overflow-wrap: anywhere; color: #555; }
+label { display: block; padding: 8px 0; cursor: pointer; }
+input { accent-color: #235bc0; margin-right: 7px; }
+fieldset { margin: 18px 0 0; padding: 8px 12px; border: 1px solid #ccc; border-radius: 8px; }
+legend { font-size: 12px; }
+#status { min-height: 22px; margin-bottom: 0; font-size: 12px; color: #555; }
